@@ -1,0 +1,158 @@
+body {
+  font-family: "ProximaNova-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body .background {
+  background-color: #e93d44;
+  background: url("images/background.png") no-repeat center;
+  background-attachment: cover;
+  height: 170vh;
+  width: 100%;
+}
+body .background .navbar {
+  height: 12vh;
+}
+body .background .navbar .logo img {
+  height: 15vh;
+}
+body .background .navbar .signup-btn {
+  padding-top: 0.5vh;
+  font-size: 2.25vh;
+  border-radius: 5000px;
+  background-color: #11333e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vw;
+}
+body .background .navbar .signup-btn p {
+  color: white;
+  margin: 0 0 0 0;
+}
+body .background .navbar .nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+  font-size: 2.3vh;
+  margin-right: 0vw;
+}
+body .background .navbar .nav-btn p {
+  color: white;
+}
+body .background .navbar .nav-btn.doc {
+  padding-right: 3vw;
+}
+body .background .intro {
+  padding-top: 5vh;
+}
+body .background .intro .data-intro {
+  padding-right: 10vh;
+  padding-left: 3vh;
+}
+body .background .intro .data-intro .intro-text {
+  font-size: 1.5vw;
+  line-height: 6vh;
+  padding: 3vw 4vw 3vw 3vw;
+}
+body .background .intro .data-intro .intro-text h1 {
+  text-align: center;
+}
+body .background .intro .data-intro .intro-text p {
+  padding-top: 2vh;
+}
+body .background .intro .data-intro .title {
+  color: #e93d44;
+}
+body .background .intro .data-intro .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .intro .data-intro .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .intro .data-intro .button-container .start-btn {
+  margin-right: 4vw;
+  padding-top: 0.5vh;
+  font-size: 3.5vh;
+  border-radius: 5000px;
+  background-color: #e93d44;
+}
+body .background .intro .data-intro .button-container .start-btn p {
+  color: white;
+  margin: 0 0 0 0;
+}
+body .background .intro .data-intro .button-container .demo-btn {
+  padding-top: 0.5vh;
+  font-size: 3.5vh;
+  border-radius: 5000px;
+  border-color: #11333e;
+  background-color: #11333e;
+}
+body .background .intro .data-intro .button-container .demo-btn p {
+  color: white;
+  margin: 0 0 0 0;
+}
+body .background .intro .carrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .intro .carrousel .carrousel-image {
+  height: 75vh;
+}
+body .background .features-section {
+  margin-right: 15vh;
+}
+body .background .features-section .title h1 {
+  color: #e93d44;
+  text-align: center;
+}
+body .background .features-section .features {
+  text-align: justify;
+}
+body .background .features-section .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .features-section .text .btn {
+  color: white;
+  background-color: #e93d44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial .tutorial-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footnote .row {
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footnote .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footnote .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footnote .footer .footnote-data {
+  height: 20vh;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
