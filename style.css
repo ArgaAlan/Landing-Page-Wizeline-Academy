@@ -68,30 +68,29 @@ body .background .intro .data-intro .text {
   justify-content: center;
   align-items: center;
 }
-body .background .intro .data-intro .start-btn {
+body .background .intro .data-intro .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .intro .data-intro .button-container .start-btn {
+  margin-right: 4vw;
   padding-top: 0.5vh;
   font-size: 3.5vh;
   border-radius: 5000px;
   background-color: #e93d44;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-body .background .intro .data-intro .start-btn p {
+body .background .intro .data-intro .button-container .start-btn p {
   color: white;
   margin: 0 0 0 0;
 }
-body .background .intro .data-intro .demo-btn {
+body .background .intro .data-intro .button-container .demo-btn {
   padding-top: 0.5vh;
-  font-size: 3vh;
+  font-size: 3.5vh;
   border-radius: 5000px;
-  border-color: #11333e;
   background-color: #11333e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-body .background .intro .data-intro .demo-btn p {
+body .background .intro .data-intro .button-container .demo-btn p {
   color: white;
   margin: 0 0 0 0;
 }
@@ -103,24 +102,45 @@ body .background .intro .carrousel {
 body .background .intro .carrousel .carrousel-image {
   height: 75vh;
 }
+body .background .features-section {
+  margin-left: 16vh;
+}
 body .background .features-section .title h1 {
   color: #e93d44;
-  text-align: center;
+  text-align: left;
+  font-size: 5vh;
 }
 body .background .features-section .features {
-  text-align: justify;
+  margin-left: 5vh;
+  margin-top: 8vh;
+  font-size: 3.2vh;
+  line-height: 10vh;
 }
-body .background .features-section .text {
+body .features-buttons .buttons-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body .background .features-section .text .btn {
-  color: white;
+body .features-buttons .buttons-container .start {
+  margin-top: 5vh;
+  margin-right: 5vh;
+  font-size: 3vh;
+  border-radius: 5000px;
   background-color: #e93d44;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+body .features-buttons .buttons-container .start p {
+  color: white;
+  margin: 0 0 0 0;
+}
+body .features-buttons .buttons-container .demo {
+  margin-top: 5vh;
+  font-size: 3vh;
+  border-radius: 5000px;
+  background-color: #11333e;
+}
+body .features-buttons .buttons-container .demo p {
+  color: white;
+  margin: 0 0 0 0;
 }
 
 .tutorial .tutorial-img {
