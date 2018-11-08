@@ -127,8 +127,9 @@ body{
     .features-buttons{
         .buttons-container{
             @include center;
+            margin-bottom: 6vh;
+            margin-top: 6vh;
             .start{
-                margin-top: 5vh;
                 margin-right: 5vh;
                 font-size: 3vh;
                 border-radius: 5000px;
@@ -139,7 +140,6 @@ body{
                 }
             }
             .demo{
-                margin-top: 5vh;
                 font-size: 3vh;
                 border-radius: 5000px;
                 background-color: $principalDarkBlue;
@@ -150,13 +150,22 @@ body{
             }
         }
     }
-}
-
-.tutorial{ 
-    .tutorial-img {
-        @include center;
+    .tutorial{
+        background-color: #FAFAFA; 
+        .information{
+            padding-top: 14vh;
+            padding-bottom: 14vh;
+            .tutorial-img {
+                @include center;
+            }
+        }
+        .text{
+            padding-left: 20vh;
+            line-height: 15vh;
+        }
     }
 }
+
 
 .footnote{ 
     .row {

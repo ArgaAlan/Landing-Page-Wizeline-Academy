@@ -120,9 +120,10 @@ body .features-buttons .buttons-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 6vh;
+  margin-top: 6vh;
 }
 body .features-buttons .buttons-container .start {
-  margin-top: 5vh;
   margin-right: 5vh;
   font-size: 3vh;
   border-radius: 5000px;
@@ -133,7 +134,6 @@ body .features-buttons .buttons-container .start p {
   margin: 0 0 0 0;
 }
 body .features-buttons .buttons-container .demo {
-  margin-top: 5vh;
   font-size: 3vh;
   border-radius: 5000px;
   background-color: #11333e;
@@ -142,11 +142,21 @@ body .features-buttons .buttons-container .demo p {
   color: white;
   margin: 0 0 0 0;
 }
-
-.tutorial .tutorial-img {
+body .tutorial {
+  background-color: #FAFAFA;
+}
+body .tutorial .information {
+  padding-top: 14vh;
+  padding-bottom: 14vh;
+}
+body .tutorial .information .tutorial-img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body .tutorial .text {
+  padding-left: 20vh;
+  line-height: 15vh;
 }
 
 .footnote .row {
