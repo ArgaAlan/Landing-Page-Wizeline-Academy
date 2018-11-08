@@ -73,30 +73,28 @@ body{
                 .text {
                     @include center;
                 }
-                .button-container{
+                .start-btn {
+                    padding-top: 0.5vh;
+                    font-size: 3.5vh;
+                    border-radius: 5000px;
+                    background-color: $principalRed;
                     @include center;
-                    .start-btn {
-                        margin-right: 4vw;
-                        padding-top: 0.5vh;
-                        font-size: 3.5vh;
-                        border-radius: 5000px;
-                        background-color: $principalRed;
-                        p {
-                            color: white;
-                            margin: 0 0 0 0;
-                        } 
+                    p {
+                        color: white;
+                        margin: 0 0 0 0;
                     }
-                    .demo-btn {
-                        padding-top: 0.5vh;
-                        font-size: 3.5vh;
-                        border-radius: 5000px;
-                        border-color: $principalDarkBlue;
-                        background-color: $principalDarkBlue;
-                        p{
-                            color: white;
-                            margin: 0 0 0 0;
-                        }
+                }
+                .demo-btn {
+                    padding-top: 0.5vh;
+                    font-size: 3vh;
+                    border-radius: 5000px;
+                    border-color: $principalDarkBlue;
+                    background-color: $principalDarkBlue;
+                    p{
+                        color: white;
+                        margin: 0 0 0 0;
                     }
+                    @include center();
                 }
             }
             .carrousel {
@@ -108,7 +106,6 @@ body{
             }
         }
         .features-section{ 
-            margin-right: 15vh;
             .title{ 
                 h1 {
                 color: $principalRed; 
@@ -138,18 +135,29 @@ body{
 }
 
 .footnote{ 
+    background-color: #fafafa;
     .row {
         padding: 2vh;
         @include center;
     }
     .logo {
         @include center;
+        img {
+            height: 10vh;
+        }
       }
       .footer {
         @include center;
         .footnote-data {
             height: 20vh;
-          }
+            color: #a2abaf;
+            h5{
+                color: $principalGrey;
+            }
+            hr{
+                border-bottom: 0.5px solid #e93d44;
+            }
+        }
       }
 }
 

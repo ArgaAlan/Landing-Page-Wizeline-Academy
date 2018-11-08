@@ -68,30 +68,30 @@ body .background .intro .data-intro .text {
   justify-content: center;
   align-items: center;
 }
-body .background .intro .data-intro .button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .background .intro .data-intro .button-container .start-btn {
-  margin-right: 4vw;
+body .background .intro .data-intro .start-btn {
   padding-top: 0.5vh;
   font-size: 3.5vh;
   border-radius: 5000px;
   background-color: #e93d44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body .background .intro .data-intro .button-container .start-btn p {
+body .background .intro .data-intro .start-btn p {
   color: white;
   margin: 0 0 0 0;
 }
-body .background .intro .data-intro .button-container .demo-btn {
+body .background .intro .data-intro .demo-btn {
   padding-top: 0.5vh;
-  font-size: 3.5vh;
+  font-size: 3vh;
   border-radius: 5000px;
   border-color: #11333e;
   background-color: #11333e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body .background .intro .data-intro .button-container .demo-btn p {
+body .background .intro .data-intro .demo-btn p {
   color: white;
   margin: 0 0 0 0;
 }
@@ -102,9 +102,6 @@ body .background .intro .carrousel {
 }
 body .background .intro .carrousel .carrousel-image {
   height: 75vh;
-}
-body .background .features-section {
-  margin-right: 15vh;
 }
 body .background .features-section .title h1 {
   color: #e93d44;
