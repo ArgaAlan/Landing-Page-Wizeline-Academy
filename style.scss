@@ -1,25 +1,17 @@
-$principalRed: #e93d44;
-$principalGrey: #262E30;
-$principalDarkBlue: #11333e;
-
-
-@mixin center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@import 'designParameters';
 
 body{
-    font-family: "ProximaNova-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $font;
+    overflow-x: hidden;
     .background{
         background-color:$principalRed;
         background: url("images/background.png") no-repeat center;
         background-attachment: cover;
-        height: 170vh;    
+        height: 180vh;
         width:100%;
         .navbar {
             height: 12vh;
-            .logo{ 
+            .logo{
                 img {
                     height: 15vh;
                 }
@@ -50,8 +42,10 @@ body{
             }
         }
         .intro {
-            padding-top: 5vh;
+
+            height: 100vh;
             .data-intro{
+                padding-top: 5vh;
                 padding-right: 10vh;
                 padding-left: 3vh;
                 .intro-text{
@@ -65,11 +59,11 @@ body{
                         padding-top: 2vh;
                     }
                 }
-        
+
                 .title {
                     color: $principalRed;
                 }
-        
+
                 .text {
                     @include center;
                 }
@@ -84,7 +78,7 @@ body{
                         p {
                             color: white;
                             margin: 0 0 0 0;
-                        } 
+                        }
                     }
                     .demo-btn {
                         padding-top: 0.5vh;
@@ -99,30 +93,42 @@ body{
                 }
             }
             .carrousel {
+              height: 80vh;
                 @include center;
                 .carrousel-image{
                     height: 75vh;
-                    
-                }   
+                }
             }
         }
         .features-section{
+            height: 100vh;
             margin-left: 16vh;
-            .title{ 
+            .title{
                 h1 {
-                color: $principalRed; 
+                color: $principalRed;
                 text-align: left;
                 font-size: 5vh;
                 }
             }
             .features {
                 margin-left: 5vh;
-                margin-top: 8vh;
+                margin-top: 0vh;
                 font-size: 3.2vh;
                 line-height: 10vh;
+                .point{
+                  display: flex;
+                  align-items: center;
+                  .fas{
+                    color: $principalRed;
+                  }
+                  p{
+                    padding-left: 1vw;
+                    padding-top: 2vh;
+                  }
+                }
             }
         }
-        
+
     }
     .features-buttons{
         .buttons-container{
@@ -151,7 +157,7 @@ body{
         }
     }
     .tutorial{
-        background-color: #FAFAFA; 
+        background-color: #FAFAFA;
         .information{
             padding-top: 14vh;
             padding-bottom: 14vh;
@@ -167,7 +173,7 @@ body{
 }
 
 
-.footnote{ 
+.footnote{
     .row {
         padding: 2vh;
         @include center;
@@ -182,7 +188,3 @@ body{
           }
       }
 }
-
-/*# sourceMappingURL=style.css.map */
-
-/*# sourceMappingURL=style.scss.map */

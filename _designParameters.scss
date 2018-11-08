@@ -1,0 +1,19 @@
+/*------- Guía de Estilos para Sass ------*/
+
+/*------------ 1.- Colores ---------------*/
+  $principalRed: #e93d44;
+  $principalGrey: #262E30;
+  $principalDarkBlue: #11333e;
+/*----------------------------------------*/
+
+/*---------- 2.- Tipografías -------------*/
+  $font: "ProximaNova-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+/*----------------------------------------*/
+
+/*------------- 2.- Mixins ---------------*/
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------------------------*/

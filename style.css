@@ -1,11 +1,20 @@
+@charset "UTF-8";
+/*------- Guía de Estilos para Sass ------*/
+/*------------ 1.- Colores ---------------*/
+/*----------------------------------------*/
+/*---------- 2.- Tipografías -------------*/
+/*----------------------------------------*/
+/*------------- 2.- Mixins ---------------*/
+/*----------------------------------------*/
 body {
   font-family: "ProximaNova-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 body .background {
   background-color: #e93d44;
   background: url("images/background.png") no-repeat center;
   background-attachment: cover;
-  height: 170vh;
+  height: 180vh;
   width: 100%;
 }
 body .background .navbar {
@@ -43,9 +52,10 @@ body .background .navbar .nav-btn.doc {
   padding-right: 3vw;
 }
 body .background .intro {
-  padding-top: 5vh;
+  height: 100vh;
 }
 body .background .intro .data-intro {
+  padding-top: 5vh;
   padding-right: 10vh;
   padding-left: 3vh;
 }
@@ -95,6 +105,7 @@ body .background .intro .data-intro .button-container .demo-btn p {
   margin: 0 0 0 0;
 }
 body .background .intro .carrousel {
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,6 +114,7 @@ body .background .intro .carrousel .carrousel-image {
   height: 75vh;
 }
 body .background .features-section {
+  height: 100vh;
   margin-left: 16vh;
 }
 body .background .features-section .title h1 {
@@ -112,9 +124,20 @@ body .background .features-section .title h1 {
 }
 body .background .features-section .features {
   margin-left: 5vh;
-  margin-top: 8vh;
+  margin-top: 0vh;
   font-size: 3.2vh;
   line-height: 10vh;
+}
+body .background .features-section .features .point {
+  display: flex;
+  align-items: center;
+}
+body .background .features-section .features .point .fas {
+  color: #e93d44;
+}
+body .background .features-section .features .point p {
+  padding-left: 1vw;
+  padding-top: 2vh;
 }
 body .features-buttons .buttons-container {
   display: flex;
@@ -178,8 +201,5 @@ body .tutorial .text {
 .footnote .footer .footnote-data {
   height: 20vh;
 }
-
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */
