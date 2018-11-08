@@ -166,7 +166,7 @@ body .features-buttons .buttons-container .demo p {
   margin: 0 0 0 0;
 }
 body .tutorial {
-  background-color: #FAFAFA;
+  background-image: linear-gradient(#FAFAFA, #FFFFFF);
 }
 body .tutorial .information {
   padding-top: 14vh;
@@ -180,8 +180,32 @@ body .tutorial .information .tutorial-img {
 body .tutorial .text {
   padding-left: 20vh;
   line-height: 15vh;
+  font-size: 4.5vh;
+}
+body .tutorial .text .point {
+  display: flex;
+  align-items: center;
+}
+body .tutorial .text .point .num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e93d44;
+  border-radius: 100%;
+  height: 4vw;
+  width: 4vw;
+  color: white;
+}
+body .tutorial .text .point .point-text {
+  padding-left: 1vw;
+}
+body .tutorial .text .point p {
+  padding-top: 2vh;
 }
 
+.footnote {
+  background-color: #FAFAFA;
+}
 .footnote .row {
   padding: 2vh;
   display: flex;
