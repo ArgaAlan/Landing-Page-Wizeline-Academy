@@ -1,12 +1,11 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        console.log("HELLO")
-        if (scroll > 300) {
-          $(".navbar").css("background" , "blue");
+        var scroll = $(window).scrollTop(); 
+        if (scroll > 80) {
+          $(".navbar").addClass("hidden");
         }
         else{
-            $(".navbar").css("background" , "#333");  	
+            $(".navbar").removeClass("hidden");
         }
     })
   })
